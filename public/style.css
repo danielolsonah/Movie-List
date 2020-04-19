@@ -1,0 +1,35 @@
+body {
+  background: #9af3f5;
+  color: white;
+  text-align: center;
+}
+
+#main {
+	background: #0044ff;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	width: 80%;
+}
+
+#header {
+  display: inline-block;
+  font-size: 32px;
+}
+
+#list {
+	display: inline-block;
+	width: 80%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.listComponent {
+	font-size: 12px;
+	text-align: center;
+	margin: 10px;
+	background: #abc9c8;
+}

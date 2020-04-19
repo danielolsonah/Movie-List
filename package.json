@@ -4,7 +4,8 @@
   "description": "Daniel and Lili's cool project",
   "main": "index.jsx",
   "scripts": {
-    "react-dev": "webpack"
+    "react-dev": "webpack --watch",
+    "launch": "node server/index.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +31,10 @@
     "react-dom": "^16.13.1",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "nodemon": "^2.0.3",
+    "style-loader": "^1.1.4"
   }
 }
